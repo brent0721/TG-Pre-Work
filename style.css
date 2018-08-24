@@ -72,6 +72,7 @@ p {
 }
 
 footer {
+  height: 100px;
   background-color: #DBE9EE;
   text-align: center;
 }
