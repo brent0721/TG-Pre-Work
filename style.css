@@ -6,7 +6,7 @@ body {
 header {
   background-color: #466995;
   border-bottom: 1px solid #466995;
-  position: absolute;
+  position: fixed;
   width: 100%;
 }
 
@@ -76,6 +76,8 @@ footer {
 }
 
 .welcome {
+  position: relative;
+  top: 200px;
   background-color: #DBE9EE;
   box-sizing: border-box;
   padding: 40px;
