@@ -10,9 +10,9 @@ body {
 }
 
 .navigation li {
-  padding: 20px;
   font-weight: 100;
   letter-spacing: 2px;
+  padding: 20px;
 }
 
 .navigation  li.logo {
@@ -52,15 +52,12 @@ h1 {
 }
 
 h2 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
   border: 1px dotted red;
   color: red;
   font-size: 14px;
   line-height: 48px;
   text-align: center;
+  padding: 20px 30px;
 }
 
 h3 {
@@ -74,6 +71,7 @@ p {
   color: grey;
   font-size: 16px;
   line-height: 48px;
+  padding: 10px 20px;
 }
 
 .pull-quote {
@@ -96,12 +94,12 @@ p {
 }
 
 .share a {
-  padding: 14px;
   background: red;
   border: 1px solid red;
   border-radius: 3px;
   color: white;
   display: inline-block;
+  padding: 14px;
   text-decoration: none;
 }
 
