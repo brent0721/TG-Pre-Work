@@ -10,6 +10,7 @@ body {
 }
 
 .navigation li {
+  padding: 20px;
   font-weight: 100;
   letter-spacing: 2px;
 }
@@ -30,8 +31,7 @@ body {
 }
 
 #banner .content h1 {
-  border: solid 3px white;
-  border-radius: 15px;
+  border: 3px solid white;
   position: relative;
   top: 50px;
   width: 400px;
@@ -52,12 +52,15 @@ h1 {
 }
 
 h2 {
-  border: dotted red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px dotted red;
   color: red;
   font-size: 14px;
   line-height: 48px;
   text-align: center;
-  border: 1px dotted red;
 }
 
 h3 {
@@ -93,6 +96,7 @@ p {
 }
 
 .share a {
+  padding: 14px;
   background: red;
   border: 1px solid red;
   border-radius: 3px;
