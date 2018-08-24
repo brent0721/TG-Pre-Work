@@ -1,16 +1,10 @@
 body {
   background-color: #FFF;
   font-family: 'Raleway', sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 .navigation {
   text-align: center;
-}
-
-.donate{
-  visibility: hidden;
 }
 
 ul {
@@ -126,4 +120,7 @@ p {
   border: 1px solid #D7263D;
   color: #D7263D;
   animation: ease;
+}
+.donate {
+  visibility: hidden;
 }
