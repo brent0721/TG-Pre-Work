@@ -18,6 +18,8 @@ ul {
 }
 
 li {
+  display: inline-block;
+  width: 80px;
   color: #FFF;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
@@ -79,7 +81,7 @@ footer {
 
 .welcome {
   position: relative;
-  top: 200px;
+  top: 50px;
   background-color: #DBE9EE;
   box-sizing: border-box;
   padding: 40px;
@@ -94,6 +96,7 @@ footer {
 }
 
 .answer {
+  display: inline-block;
   border: 1px solid #466995;
   margin: 20px;
 }
