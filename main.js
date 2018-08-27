@@ -10,6 +10,11 @@ let person = {
       console.log('Invalid input');
       return 'Invalid input';
     }
+  },
+
+  get age() {
+    console.log(`${this._name} is ${this._age} years old.`);
+    return this._age;
   }
 
 };
@@ -17,3 +22,5 @@ let person = {
 
 person.age = 'Thirty-nine';
 person.age = 39;
+
+console.log(person.age);
