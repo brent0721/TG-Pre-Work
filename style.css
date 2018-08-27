@@ -13,6 +13,7 @@ main {
   grid-auto-rows: 500px;
   justify-items: center;
   justify-content: center;
+  align-items: stretch;
 }
 
 h2 {
