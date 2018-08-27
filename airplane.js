@@ -1,13 +1,23 @@
-let Airplane = {};
+let availableAirplanes = [{
+ name: 'AeroJet',
+ fuelCapacity: 800,
+ availableStaff: ['pilots', 'flightAttendants', 'engineers', 'medicalAssistance', 'sensorOperators'],
+},
+{name: 'SkyJet',
+ fuelCapacity: 500,
+ availableStaff: ['pilots', 'flightAttendants']
+}];
 
-Airplane.availableAirplanes = [
-{
-  name: 'AeroJet',
-  fuelCapacity: 800
- },
- {name: 'SkyJet',
-  fuelCapacity: 500
- }
-];
+let flightRequirements = {
+  requiredStaff: 4,
+};
 
-export default Airplane;
+function meetsStaffRequirements(availableStaff, requiredStaff) {
+  if (availableStaff.length >= requiredStaff) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+export { availableAirplanes, flightRequirements, meetsStaffRequirements};
