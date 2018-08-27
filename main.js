@@ -1,8 +1,9 @@
-let newYearsResolutions = ['Lose weight', 'Learn a new language', 'Travel more'];
+let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
 
-newYearsResolutions.push('Learn a new instrument', 'Get Lasik');
+groceryList.shift();
 
-console.log(newYearsResolutions);
+groceryList.unshift('popcorn');
+console.log(groceryList);
 
-newYearsResolutions.pop();
-console.log(newYearsResolutions);
+console.log(groceryList.slice(1, 4));
+console.log(groceryList);
