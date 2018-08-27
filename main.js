@@ -1,7 +1,3 @@
-const visibleLightWaves = () => {
-  let lightWaves = 'Moonlight';
-  console.log(lightWaves);
-};
+let bucketList = ['Rappel into a cave', 'Take a falconry class', 'Learn to juggle'];
 
-visibleLightWaves();
-console.log(lightWaves);
+console.log(bucketList);
