@@ -1,4 +1,13 @@
-let notDefined;
-console.log(notDefined);
-let valueless = undefined;
-console.log(valueless);
+let molecule = 16;
+let particle = 18;
+let assay = 3;
+
+// Add and assign to molecule below
+molecule += 16;
+
+// Multiply and assign to particle below
+particle *= 6.02;
+console.log(particle);
+
+// Increment assay by 1
+assay++;
