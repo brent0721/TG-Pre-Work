@@ -1,3 +1,3 @@
-let bucketList = ['Rappel into a cave', 'Take a falconry class', 'Learn to juggle'];
+let newYearsResolutions = ['Lose weight', 'Buy a house', 'Travel more'];
 
-console.log(bucketList);
+console.log(newYearsResolutions);
