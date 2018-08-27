@@ -1,4 +1,4 @@
-let newYearsResolutions = ['Lose weight', 'Buy a house', 'Travel more'];
+let newYearsResolutions = ['Lose weight', 'Learn a new language', 'Travel more'];
 
 let listItem = newYearsResolutions[0];
 console.log(listItem);
