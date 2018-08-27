@@ -1,9 +1,8 @@
 .grid {
   display: grid;
   border: 2px blue solid;
-  width: 400px;
   height: 500px;
-  grid-template: repeat(3, 1fr) / 3fr 50% 1fr;
+  grid-template: repeat(3, 1fr) / 3fr minmax(50px, 300px) 1fr;
 }
 
 .box {
