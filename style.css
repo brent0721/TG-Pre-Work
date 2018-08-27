@@ -12,6 +12,7 @@ main {
   margin-top: 44px;
   grid-auto-rows: 500px;
   justify-items: center;
+  justify-content: center;
 }
 
 h2 {
