@@ -37,8 +37,8 @@ const renderRawResponse = (res) => {
 const renderJsonResponse = (res) => {
   // Creates an empty object to store the JSON in key-value pairs
   let rawJson = {};
-  for(let key in res){
-    rawJson[key] = res[key];
+  for(let key in response){
+    rawJson[key] = response[key];
   }
   // Converts JSON into a string and adding line breaks to make it easier to read
   rawJson = JSON.stringify(rawJson).replace(/,/g, ", \n");

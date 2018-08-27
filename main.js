@@ -19,6 +19,8 @@ const getSuggestions = () => {
     throw new Error('Request failed!');
   }, networkError => {
     console.log(networkError.message)
+  }).then(jsonResponse => {
+    renderResponse(jsonResponse);
   })
 }
 
