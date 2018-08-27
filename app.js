@@ -1,13 +1,3 @@
-let molecule = 16;
-let particle = 18;
-let assay = 3;
+let favoriteAnimal = "Dog";
 
-// Add and assign to molecule below
-molecule += 16;
-
-// Multiply and assign to particle below
-particle *= 6.02;
-console.log(particle);
-
-// Increment assay by 1
-assay++;
+console.log('My favorite animal: ' + favoriteAnimal);
