@@ -1,5 +1,5 @@
-let cookies = ['chocolate chip', 'raisin', 'macadamia nut', 'sugar'];
+let vacationSpots = ['Sydney', 'London', 'Rome'];
 
-for (let i = 0; i<cookies.length; i++) {
-  console.log('I would love to eat a ' + cookies[i] + ' cookie right now!');
-}
+console.log(vacationSpots[0]);
+console.log(vacationSpots[1]);
+console.log(vacationSpots[2]);
