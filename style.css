@@ -2,9 +2,14 @@
   display: grid;
   border: 2px blue solid;
   height: 500px;
-  width:400px;
-  grid-template: repeat(3, 1fr) / 3fr 50% 1fr;
-  grid-gap: 20px 5px;
+  width: 500px;
+  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+  grid-gap: 5px;
+}
+
+.a {
+  grid-row-start: 5;
+  grid-row-end: 7;
 }
 
 .box {
