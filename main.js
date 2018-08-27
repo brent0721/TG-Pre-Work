@@ -3,9 +3,15 @@ let person = {
   age: 30,
   weekendAlarm: 'No alarms needed',
   weekAlarm: 'Alarm set to 7AM',
-  sayHello: () => {
+
+  sayHello: function() {
     return 'Hello, there!';
+  },
+
+  sayGoodbye() {
+    return 'Goodbye!';
   }
+
 };
 
 console.log(person.sayHello());
