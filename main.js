@@ -1,9 +1,4 @@
-const isGreaterThan = (numberOne, numberTwo) => {
-  if(numberOne > numberTwo){
-    return true;
-  } else {
-    return false;
-  }
-}
+const volumeOfSphere = diameter => (1/6) * Math.PI * diameter * diameter * diameter;
 
-isGreaterThan(4, 8)
+
+console.log('The volume of a sphere is ' + volumeOfSphere(10) + ' cubic centimeters');
