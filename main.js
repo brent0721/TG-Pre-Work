@@ -5,6 +5,11 @@ let person = {
   weekAlarm: 'Alarm set to 7AM'
 };
 
+person.hobbies = ['Playing Guitar', 'Cycling'];
+person.hobbies = ['Playing Guitar'];
+console.log(person.hobbies);
+
+
 console.log(person['name']);
 console.log(person['age']);
 
