@@ -1,10 +1,9 @@
-let cards = ['Diamond', 'Spade', 'Heart', 'Club'];
-
-let currentCard = 'Heart';
-
-while (currentCard !== 'Spade') {
-  console.log(currentCard);
-  currentCard = cards[Math.floor(Math.random() *4)];
+let flag = true;
+let counter = 0;
+while(flag === true){
+  console.log(counter);
+  counter+=1;
+  if (counter === 37){
+    break;
+  }
 }
-
-console.log('You found a spade!');
