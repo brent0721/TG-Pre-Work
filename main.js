@@ -11,9 +11,16 @@ let person = {
   sayGoodbye() {
     return 'Goodbye!';
   }
-
 };
 
+
+let friend = {
+  name: 'Barack'
+};
+
+friend.sayHello = person.sayHello;
+
+console.log(friend.sayHello());
 console.log(person.sayHello());
 
 person.hobbies = ['Playing Guitar', 'Cycling'];
