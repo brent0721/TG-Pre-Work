@@ -39,11 +39,11 @@ img {
 }
 
 .a {
-
+  align-self: end;
 }
 
 .c {
-
+  justify-self: start;
 }
 
 .time {
